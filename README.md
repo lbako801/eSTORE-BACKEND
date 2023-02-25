@@ -40,12 +40,11 @@ To start the server, run the following command:
  - Filter products by category or tag
  - Pagination support for retrieving products
  - Error handling for invalid requests
-
-# Screenshots
-
+ 
 # Demo
 
-A live demo of this API is available at this link: 
+A live demo of this API is available at this link: [DEMO VIDEO](https://drive.google.com/file/d/1igBXXgGM0dIQSioD1-lXklS589Pa9a8M/view)
 
 # Contact
-For any questions or comments, please reach out to here.
+For any questions or comments, reach me on [GITHUB](https://github.com/lbako801) OR  
+Message me through my [WEBSITE](https://lorenbako.com/)
