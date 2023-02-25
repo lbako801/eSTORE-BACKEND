@@ -1,6 +1,15 @@
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection.js');
+const Product = require('./Product');
+
+class Category extends Model {
+  static associate(models) {
+    Category.hasMany(models.Product, {
+      foreignKey: 'category_id',
+      onDelete: 'CASCADE',
+    });
+  }
+}
 
 Category.init(
   {
